@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ClearCacheOnInstance.aspx" />
+    <Content Include="ClearHtmlCacheOnInstance.aspx" />
     <Content Include="CustomCacheAdmin.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="ClearCacheOnInstance.aspx.designer.cs">
       <DependentUpon>ClearCacheOnInstance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClearHtmlCacheOnInstance.aspx.cs">
+      <DependentUpon>ClearHtmlCacheOnInstance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClearHtmlCacheOnInstance.aspx.designer.cs">
+      <DependentUpon>ClearHtmlCacheOnInstance.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustomCacheAdmin.aspx.cs">
       <DependentUpon>CustomCacheAdmin.aspx</DependentUpon>
